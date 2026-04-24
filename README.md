@@ -1,17 +1,99 @@
-# meme_app
+#  Meme App
 
-A new Flutter project.
+A simple and fun Flutter application that fetches trending memes from the internet and displays them in a clean, scrollable UI.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+* 🔥 Fetch trending memes using API
+* 🖼️ Smooth image loading with caching
+* 🎨 Dynamic UI with color extraction from images
+* 📱 Responsive and minimal design
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+
+* Flutter (Dart)
+* REST API (for memes)
+* Cached Network Image
+* Material UI
+
+---
+
+## 📂 Project Structure
+
+```
+lib/
+ ├── main.dart
+ ├── screens/
+ ├── widgets/
+ ├── models/
+ └── services/
+```
+
+---
+
+## ⚙️ Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/YashBarfa0603/meme_app.git
+```
+
+2. Navigate to the project:
+
+```bash
+cd meme_app
+```
+
+3. Install dependencies:
+
+```bash
+flutter pub get
+```
+
+4. Run the app:
+
+```bash
+flutter run
+```
+
+---
+
+
+
+## 📦 Release
+
+### v1.0.0 🎉
+
+* Initial release
+* Meme fetching and display functionality
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork the repo and submit a pull request.
+
+---
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Yash Barfa**
+
+* GitHub: https://github.com/YashBarfa0603
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
